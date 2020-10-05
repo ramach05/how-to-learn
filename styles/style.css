@@ -1,10 +1,7 @@
-/* div {
-  border: solid red 1px;
-} */
-
 * {
   margin: 0;
   padding: 0;
+  border: solid red 1px;*/
 }
 
 .page {
@@ -42,6 +39,7 @@
   top: 64px;
 }
 .header__title {
+  width: 730px;
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
@@ -51,8 +49,9 @@
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
+  width: 388px
 }
-.header__links-decoration {
+.header__link {
   text-decoration: none;
   color: #2f80ed;
 }
@@ -70,6 +69,9 @@
   background-size: contain;
 }
 .logo_place_header {
+  background-image: url(../images/logo_place_header.svg);
+  width: 183px;
+  height: 32px;
   margin-top: 30px;
 }
 
@@ -86,6 +88,7 @@
   justify-content: space-between;
 }
 .two-columns__brief {
+  margin: 0;
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -191,8 +194,6 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-}
-.feinman__links-decoration {
   text-decoration: none;
   color: #2f80ed;
 }
@@ -272,16 +273,18 @@
 }
 .footer__column-links {
   margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
 }
 .footer__columns_content_social {
   display: flex;
   flex-direction: column;
 }
 .footer__links-decoration {
+  text-decoration: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  text-decoration: none;
   color: white;
 }
 .footer__links_img {
@@ -289,6 +292,7 @@
   height: 16px;
   width: 16px;
 }
+
 
 
 
