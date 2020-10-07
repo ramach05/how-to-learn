@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  border: solid red 1px;
+  /*border: solid red 1px;*/
 }
 
 .page {
@@ -59,6 +59,9 @@
 .header__link {
   text-decoration: none;
   color: #2f80ed;
+}
+.header__link:hover {
+  text-decoration: underline;
 }
 .flex-column {
   display: flex;
@@ -205,12 +208,14 @@
   text-decoration: none;
   color: #2f80ed;
 }
+.feinman__link:hover {
+  text-decoration: underline;
+}
 
 /* -------------kaufman------------- */
 
 .kaufman {
   background-color: #1f1f1f;
-  color: white;
   padding-top: 90px;
   padding-bottom: 90px;
   position: relative;
@@ -226,7 +231,7 @@
   width: 877px;
   height: 877px;
 }
-.section-title_theme_dark {
+.section-title {
   width: 60%;
   text-align: center;
   margin: 0 auto;
@@ -235,7 +240,10 @@
   font-weight: bold;
   margin-bottom: 20px;
 }
-.section-subtitle_theme_dark {
+.section-title_theme_dark {
+  color: white;
+}
+.section-subtitle {
   width: 60%;
   text-align: center;
   margin: 0 auto;
@@ -243,28 +251,43 @@
   font-size: 24px;
   font-weight: normal;
 }
-.table_theme_dark {
+.section-subtitle_theme_dark {
+  color: white;
+}
+.table {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
   margin: auto;
 }
-.table__cell_theme_dark {
+.table_theme_dark {
+  color: white;
+}
+.table__cell {
   margin-top: 80px;
   width: 200px;
   z-index: 1;
 }
-.table__heading_theme_dark {
+.table__cell_theme_dark {
+  color: white;
+}
+.table__heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
 }
-.table__text_theme_dark {
+.table__heading_theme_dark {
+  color: white;
+}
+.table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+}
+.table__text_theme_dark {
+  color: white;
 }
 
 /* -------------footer------------- */
@@ -288,7 +311,6 @@
 .footer__column {
   display: flex;
   flex-direction: column;
-  list-style: none;
 }
 .footer__column_content_copyright {
   position: relative;
@@ -314,6 +336,7 @@
 }
 .footer__column-links {
   margin-bottom: 16px;
+  list-style: none;
 }
 .footer__links-decoration {
   text-decoration: none;
@@ -321,6 +344,9 @@
   font-size: 18px;
   font-weight: normal;
   color: white;
+}
+.footer__links-decoration:hover {
+  text-decoration: underline;
 }
 .footer__social-icon {
   margin-right: 10px;
