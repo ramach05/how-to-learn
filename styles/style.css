@@ -231,60 +231,23 @@
   width: 877px;
   height: 877px;
 }
-.section-title {
-  width: 60%;
-  text-align: center;
-  margin: 0 auto;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
 .section-title_theme_dark {
   color: white;
-}
-.section-subtitle {
-  width: 60%;
-  text-align: center;
-  margin: 0 auto;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
 }
 .section-subtitle_theme_dark {
   color: white;
 }
-.table {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 1100px;
-  margin: auto;
-}
 .table_theme_dark {
   color: white;
 }
-.table__cell {
+.table__cell_theme_dark {
+  color: white;
   margin-top: 80px;
   width: 200px;
   z-index: 1;
 }
-.table__cell_theme_dark {
-  color: white;
-}
-.table__heading {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
 .table__heading_theme_dark {
   color: white;
-}
-.table__text {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
 }
 .table__text_theme_dark {
   color: white;
