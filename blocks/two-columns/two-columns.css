@@ -1,6 +1,6 @@
 .two-columns {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
