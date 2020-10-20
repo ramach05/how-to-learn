@@ -1,0 +1,6 @@
+.rotation {
+    animation: rotation 20s linear infinite;
+    -webkit-animation: rotation 20s linear infinite;
+    -moz-animation: rotation 20s linear infinite;
+    -o-animation: rotation 20s linear infinite;
+}
