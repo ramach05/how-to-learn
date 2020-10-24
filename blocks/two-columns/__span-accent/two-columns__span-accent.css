@@ -1,4 +1,5 @@
 .two-columns__span-accent {
-    font-weight: bold;
-  }
-  
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
