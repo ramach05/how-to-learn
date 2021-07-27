@@ -1,19 +1,11 @@
 {
   "name": "how-to-learn",
   "version": "1.0.0",
-  "description": "Делаю одностраничный сайт. Использую технологию БЭМ",
-  "main": "index.js",
+  "description": "A static website with the use of BEM methodology",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ramach05/how-to-learn.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ramach05/how-to-learn/issues"
-  },
-  "homepage": "https://github.com/ramach05/how-to-learn#readme"
+  "author": "Roman Kovalenko <mrroman6552@gmail.com> (https://github.com/ramach05)",
+  "homepage": ""
 }
