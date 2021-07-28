@@ -1,12 +1,13 @@
 {
   "name": "how-to-learn",
   "version": "1.0.0",
-  "description": "A static website with the use of BEM methodology",
+  "description": "A static website with the use of BEM methodology. Built using webpack and uploaded to the server.",
   "main": "index.html",
   "scripts": {
-    "deploy": "gh-pages -d dist",
     "build": "webpack --mode production",
-    "dev": "webpack serve"
+    "dev": "webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Roman Kovalenko <mrroman6552@gmail.com> (https://github.com/ramach05)",
   "homepage": "",

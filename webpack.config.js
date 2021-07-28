@@ -57,21 +57,11 @@ module.exports = {
           MiniCssExtractPlugin.loader,
           {
             loader: "css-loader",
+            options: { importLoaders: 1 }, // при использовании @import в css-файлах
           },
+          "postcss-loader",
         ],
       },
-      // {
-      //   test: /\.css$/,
-      //   use: [
-      //     MiniCssExtractPlugin.loader,
-      //     {
-      //       loader: "css-loader",
-      //       options: { importLoaders: 1 },
-      //     },
-      //     "postcss-loader",
-      //   ],
-      // },
     ],
   },
-  // devtool: "inline-source-map",
 };
