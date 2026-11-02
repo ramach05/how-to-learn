@@ -1,3 +1,6 @@
+> **Archived.** Learning project from 2021, kept as a starting point.
+> Static landing page with vanilla JS form validation, webpack build, deployed to gh-pages. Original README below.
+
 # **How To Learn**
 
 ## Функциональность проекта
